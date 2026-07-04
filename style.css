@@ -13,10 +13,10 @@ body{
 }
 .contenaire{
   background-color: rgb(116, 116, 155);
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 12px;
   position: absolute;
-  top: 100px;
+  top: 99px;
 }
 form{
   display: flex;
@@ -27,8 +27,8 @@ form div{
   background-color: rgb(116, 116,155);
 }
 form input{
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
