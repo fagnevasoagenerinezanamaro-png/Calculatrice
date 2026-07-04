@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: #fff;
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -28,12 +27,12 @@ form div{
   background-color: rgb(116, 116,155);
 }
 form input{
-  width: 10rem;
-  height: 10rem;
+  width: 4rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bolder;
   box-sizing: border-box
@@ -44,6 +43,8 @@ form input{
 }
 .afficheur{
   flex: 1;
+  with: 100%
+  grid-column: span 4;
   text-align: right;
   justify-content: end;
 }
