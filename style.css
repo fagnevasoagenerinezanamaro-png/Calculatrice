@@ -13,7 +13,9 @@ body{
 }
 .contenaire{
   background-color: rgb(116, 116, 155);
-  padding: 2rem;
+  padding: 15px;
+  with: 90%
+  max-with: 320px
   border-radius: 12px;
   position: absolute;
   top: 99px;
@@ -27,12 +29,12 @@ form div{
   background-color: rgb(116, 116,155);
 }
 form input{
-  width: 2rem;
-  height: 2rem;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 20px;
   text-align: center;
   font-weight: bolder;
   box-sizing: border-box
@@ -43,8 +45,9 @@ form input{
 }
 .afficheur{
   flex: 1;
-  with: 100%
-  grid-column: span 4;
+  with: 100%;
+  height: 60px;
+  padding: 0 10px;
   text-align: right;
   justify-content: end;
 }
